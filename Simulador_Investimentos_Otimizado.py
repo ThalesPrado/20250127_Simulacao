@@ -51,8 +51,8 @@ def gerar_tabela_dinamica(valor_investido, taxa_margem, total_impostos, valor_me
         historico.append({
             "Período": periodo + 1,
             "Valor Investido (R$)": valor_investido,
-            "Taxa Margem (%)": taxa_margem_atual * 100,
-            "Margem Bruta (R$)": margem_bruta,
+            "Margem Desejada (%)": taxa_margem_atual * 100,
+            "Margem Bruta Calculada (R$)": margem_bruta,
             "Total Impostos (%)": total_impostos_atual * 100,
             "Margem Líquida (R$)": margem_liquida,
             "Margem Líquida Acumulada (R$)": margem_liquida_acumulada
