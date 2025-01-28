@@ -78,8 +78,8 @@ def app_principal():
     nome_empresa = st.text_input("Nome da Empresa")
     cnpj = st.text_input("CNPJ")
     valor_investido = st.number_input("Valor Inicial Investido (R$):", min_value=0.0)
-    taxa_margem_inicial = st.number_input("Taxa Inicial de Margem (%):", min_value=0.0, max_value=100.0) / 100
-    total_impostos_inicial = st.number_input("Taxa Inicial de Impostos (%):", min_value=0.0, max_value=100.0) / 100
+    taxa_margem_inicial = st.number_input("Margem Desejada (%):", min_value=0.0, max_value=100.0) / 100
+    total_impostos_inicial = st.number_input("Total Impostos (%):", min_value=0.0, max_value=100.0) / 100
     valor_meta = st.number_input("Meta de Margem Líquida Total (R$):", min_value=0.0)
 
     # Configurar ajustes manuais
